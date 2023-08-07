@@ -27,10 +27,10 @@ body {
     border-radius: 50%;
 }
 .banner .logo img {
+    object-fit: contain;
     height: 100%;
     width: 100%;
     margin: auto;
-    object-fit: contain;
 }
 .banner h1 {
     color: transparent;
@@ -46,12 +46,12 @@ body {
     font-size: 1.5rem;
 }
 .banner button {
+    color: #31A8DD;
+    background: transparent;
     padding: 1rem 2rem;
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
     border-radius: 1.875rem;
-    background: transparent;
-    color: #31A8DD;
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -62,8 +62,8 @@ section { margin: 6.25rem auto; }
 #course-content, #professional-challenges { width: 50rem; }
 
 h2 {
-    margin-bottom: 2rem;
     color: #33A8DB;
+    margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -91,10 +91,10 @@ h2 {
     border-bottom: 1px solid #33A8DB80;
 }
 #transform-world p {
+    max-width: 15.625rem;
     font-size: 2.5rem;
     font-weight: 900;
     text-transform: lowercase;
-    max-width: 15.625rem;
     text-shadow: 3px 2px #33A8DB;
 }
 #professional-challenges img { margin: 2rem 0; }
@@ -104,11 +104,10 @@ footer {
     padding: 3.75rem 0;
     border-top: 1px solid #33A8DB80;
 }
-footer .dio-logo {
-  width: 18.75rem;
-}
+footer .dio-logo { width: 18.75rem; }
+
 footer a {
-  color: #33A8DB;
-  font-weight: bold;
-  text-decoration: none;
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
 }
